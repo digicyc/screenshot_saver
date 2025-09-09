@@ -1,7 +1,10 @@
+# ScreenShot Saver
 
+Just a simple CLI tool for uploading a screenshot.
 
+## To build project
 
-## To run the project
-```
-Build with go build -o upload_screenshot and use like: ./upload_screenshot <file_path>
-```
+- Copy default.env to main.env
+- Update values in main.env to your personal values
+- make build
+- Copy the binary from the build folder to your desired location
