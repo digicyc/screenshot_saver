@@ -1,6 +1,6 @@
 # Load environment variables from .env file
-include default.env
-export $(shell sed 's/=.*//' default.env)
+include main.env
+export $(shell sed 's/=.*//' main.env)
 
 # Build target
 build:
